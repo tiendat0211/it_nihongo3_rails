@@ -11,6 +11,11 @@
 </p>
 
 <p>
+  <strong>Detail:</strong>
+  <%= @book.detail %>
+</p>
+
+<p>
   <strong>Images:</strong>
   <% if @book.image.attached? %>
      <%= image_tag @book.image %>
